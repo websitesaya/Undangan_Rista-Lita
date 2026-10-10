@@ -21,8 +21,8 @@
    ini adalah cara paling sederhana & umum dipakai.
    ========================================================= */
 const CONFIG = {
-  JSONBIN_BIN_ID: "PASTE_BIN_ID_DI_SINI",
-  JSONBIN_API_KEY: "PASTE_X_MASTER_KEY_DI_SINI",
+  JSONBIN_BIN_ID: "6aca6dd4ffd5d160535f822e",
+  JSONBIN_API_KEY: "$2a$10$nou5c3yZntdxwBqnGEEOvuCkZpg9GT4CfSp1IXgNhJpKQzhxI8NYO",
   // Pemberkatan 14 Oktober 2026 pukul 10.00 WITA (UTC+8)
   WEDDING_DATE: "2026-10-14T10:00:00+08:00",
   GALLERY_COUNT: 8
