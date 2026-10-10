@@ -578,16 +578,40 @@ body.curtain-open #curtain-right{ transform:translateX(102%); }
 .wish-empty, .wish-loading{ text-align:center; color:var(--on-maroon-soft); font-style:italic; font-size:.88rem; }
 
 /* =========================================================
-   11. CLOSING
+   FOOTER — Sosial media, kredit & logo usaha (latar cream)
    ========================================================= */
-#closing{
-  text-align:center; background:var(--cream); color:var(--ink);
-  padding:70px 30px 90px;
+.social-links{
+  display:flex; justify-content:center; gap:14px;
+  margin-top:32px;
 }
-#closing .cover-monogram{ font-size:2.6rem; color:var(--gold-deep); text-shadow:none; }
-#closing .section-title{ color:var(--maroon); }
-#closing p{ line-height:1.8; color:var(--ink-soft); }
-.closing-family{ margin-top:26px; font-family:var(--font-display); font-size:1.5rem; color:var(--maroon); }
+.social-btn{
+  width:46px; height:46px; border-radius:50%;
+  border:1px solid rgba(143,107,37,.5);
+  display:flex; align-items:center; justify-content:center;
+  color:var(--maroon);
+  transition:background .25s ease, color .25s ease, transform .2s ease;
+  text-decoration:none;
+}
+.social-btn:hover{ background:var(--maroon); color:var(--gold-bright); transform:translateY(-2px); }
+.social-handle{
+  font-size:.7rem; letter-spacing:.06em; color:var(--ink-soft);
+  margin-top:14px;
+}
+.credit-brand{
+  margin-top:34px; padding-top:26px;
+  border-top:1px solid var(--ivory-line);
+  display:flex; flex-direction:column; align-items:center; gap:12px;
+}
+.credit-logo{
+  width:96px; height:96px;
+  aspect-ratio:1/1; object-fit:cover;
+  border-radius:50%;
+  box-shadow:0 8px 22px -10px rgba(74,15,26,.55);
+}
+.credit{
+  font-size:.68rem; letter-spacing:.1em;
+  color:var(--ink-soft);
+}
 
 
 /* =========================================================
